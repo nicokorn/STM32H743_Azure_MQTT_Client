@@ -18,7 +18,6 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Browse
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim_ex.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim.h \
-  D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rng_ex.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rng.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
@@ -55,7 +54,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Browse
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\CMSIS\Include\core_cm7.h \
-  D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h735xx.h \
+  D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h \
   D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc.h \

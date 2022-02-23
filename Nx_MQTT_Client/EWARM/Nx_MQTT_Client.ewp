@@ -768,7 +768,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$/stm32h735xx_flash_rw_sram1.icf</state>
+                    <state>$PROJ_DIR$\stm32h743xx_flash_rw_sram1.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1077,7 +1077,7 @@
         <group>
             <name>EWARM</name>
             <file>
-                <name>$PROJ_DIR$\startup_stm32h735xx.s</name>
+                <name>$PROJ_DIR$\startup_stm32h743xx.s</name>
             </file>
         </group>
         <group>
