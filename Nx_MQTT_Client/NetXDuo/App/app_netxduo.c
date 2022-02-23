@@ -480,7 +480,8 @@ static VOID App_MQTT_Client_Thread_Entry(ULONG thread_input)
   {
     aRandom32bit = message_generate();
     
-    snprintf(message, STRLEN(message), "%u", aRandom32bit);
+    //snprintf(message, STRLEN(message), "%u", aRandom32bit);
+    sprintf(message,"%d",aRandom32bit);
     
     /* Publish a message with QoS Level 1. */
     ret = nxd_mqtt_client_publish(&MqttClient, TOPIC_NAME, STRLEN(TOPIC_NAME),

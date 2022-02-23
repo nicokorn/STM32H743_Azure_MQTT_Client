@@ -61,7 +61,7 @@ extern "C" {
 #define MQTT_THREAD_PRIORTY         2
 #define MQTT_KEEP_ALIVE_TIMER       30000                /* Define the MQTT keep alive timer for 5 minutes */
 #define CLEAN_SESSION               NX_TRUE
-#define STRLEN(p)                   (sizeof(p) - 1)  
+#define STRLEN(p)                   strlen(p)//(sizeof(p) - 1)  
                                     
 #define TOPIC_NAME                  "Nico_Temperature" 
 #define NB_MESSAGE                  0                    /*  if NB_MESSAGE = 0, client will publish messages infinitely */

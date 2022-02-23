@@ -55,6 +55,8 @@ typedef enum
   LED_GREEN = LED1,
   LED2 = 1U,
   LED_RED = LED2,
+  LED3 = 2U,
+  LED_YELLOW = LED3,
   LEDn
 }Led_TypeDef;
 
@@ -156,15 +158,23 @@ typedef struct
   * @{
   */
 
-#define LED1_GPIO_PORT                   GPIOC
-#define LED1_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOC_CLK_ENABLE()
-#define LED1_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOC_CLK_DISABLE()
-#define LED1_PIN                         GPIO_PIN_3
+// blue led
+#define LED1_GPIO_PORT                   GPIOB
+#define LED1_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOB_CLK_ENABLE()
+#define LED1_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOB_CLK_DISABLE()
+#define LED1_PIN                         GPIO_PIN_0
 
-#define LED2_GPIO_PORT                   GPIOC
-#define LED2_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOC_CLK_ENABLE()
-#define LED2_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOC_CLK_DISABLE()
-#define LED2_PIN                         GPIO_PIN_2
+// red led
+#define LED2_GPIO_PORT                   GPIOB
+#define LED2_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOB_CLK_ENABLE()
+#define LED2_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOB_CLK_DISABLE()
+#define LED2_PIN                         GPIO_PIN_14
+
+// red yellow
+#define LED3_GPIO_PORT                   GPIOE
+#define LED3_GPIO_CLK_ENABLE()           __HAL_RCC_GPIOE_CLK_ENABLE()
+#define LED3_GPIO_CLK_DISABLE()          __HAL_RCC_GPIOE_CLK_DISABLE()
+#define LED3_PIN                         GPIO_PIN_1
 
 /**
   * @}

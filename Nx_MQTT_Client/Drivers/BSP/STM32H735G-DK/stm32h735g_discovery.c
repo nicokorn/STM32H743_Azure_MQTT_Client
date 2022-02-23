@@ -75,10 +75,13 @@ USART_TypeDef* COM_USART[COMn]   = {COM1_UART};
   */
 static GPIO_TypeDef* LED_PORT[LEDn] = {
                                        LED1_GPIO_PORT,
-                                       LED2_GPIO_PORT
-                                      };
+                                       LED2_GPIO_PORT,
+                                       LED3_GPIO_PORT
+                                       };
 static const uint32_t LED_PIN[LEDn] = {LED1_PIN,
-                                       LED2_PIN};
+                                       LED2_PIN,
+                                       LED3_PIN
+                                       };
 
 static GPIO_TypeDef* BUTTON_PORT[BUTTONn] = {BUTTON_USER_GPIO_PORT};
 static const uint16_t BUTTON_PIN[BUTTONn] = {BUTTON_USER_PIN};
@@ -132,6 +135,11 @@ int32_t BSP_LED_Init(Led_TypeDef Led)
 
     LED2_GPIO_CLK_ENABLE();
   }
+  else if (Led == LED3)
+  {
+
+    LED3_GPIO_CLK_ENABLE();
+  }
   else
   {
     ret = BSP_ERROR_WRONG_PARAM;
@@ -181,7 +189,7 @@ int32_t BSP_LED_On(Led_TypeDef Led)
 {
   int32_t ret = BSP_ERROR_NONE;
 
-  HAL_GPIO_WritePin (LED_PORT [Led], (uint16_t)LED_PIN [Led], GPIO_PIN_RESET);
+  HAL_GPIO_WritePin (LED_PORT [Led], (uint16_t)LED_PIN [Led], GPIO_PIN_SET);
   return ret;
 }
 
@@ -196,7 +204,7 @@ int32_t BSP_LED_On(Led_TypeDef Led)
 int32_t BSP_LED_Off(Led_TypeDef Led)
 {
   int32_t ret = BSP_ERROR_NONE;
-  HAL_GPIO_WritePin (LED_PORT [Led], (uint16_t)LED_PIN [Led], GPIO_PIN_SET);
+  HAL_GPIO_WritePin (LED_PORT [Led], (uint16_t)LED_PIN [Led], GPIO_PIN_RESET);
   return ret;
 }
 
