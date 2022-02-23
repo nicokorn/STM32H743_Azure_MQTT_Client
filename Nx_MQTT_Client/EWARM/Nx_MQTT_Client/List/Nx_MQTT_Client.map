@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  23/Feb/2022  18:09:22
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  23/Feb/2022  18:28:32
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -1532,7 +1532,7 @@
 #        --map
 #        D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\List\Nx_MQTT_Client.map
 #        --config
-#        D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\temp\stm32h735xx_flash_rw_sram1.icf
+#        D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\stm32h743xx_flash_rw_sram1.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################

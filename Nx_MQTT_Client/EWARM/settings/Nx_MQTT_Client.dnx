@@ -20,7 +20,7 @@
         <stlinkfoundProbes />
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>3707543804</Checksum>
+        <Checksum>2385046833</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -100,12 +100,13 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.440.6" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.444.4" 0 0 1 "" 0 "" 0</Bp0>
         <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\ST\netxduo\addons\mqtt\nxd_mqtt_client.c}.5222.17" 0 0 1 "" 0 "" 0</Bp1>
         <Bp2>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\ST\netxduo\addons\mqtt\nxd_mqtt_client.c}.5621.9" 0 0 1 "" 0 "" 0</Bp2>
         <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\ST\netxduo\addons\mqtt\nxd_mqtt_client.c}.5615.9" 0 0 1 "" 0 "" 0</Bp3>
         <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Middlewares\ST\netxduo\addons\mqtt\nxd_mqtt_client.c}.5609.9" 0 0 1 "" 0 "" 0</Bp4>
-        <Count>5</Count>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Core\Src\main.c}.440.6" 0 0 1 "" 0 "" 0</Bp5>
+        <Count>6</Count>
     </Breakpoints2>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
