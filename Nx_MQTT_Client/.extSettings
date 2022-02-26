@@ -1,7 +1,0 @@
-[ProjectFiles]
-HeaderPath=../Drivers/BSP/STM32H735G-DK;
-[Others]
-HALModule=
-[Groups]
-Doc=../README.md;
-Drivers/BSP/STM32H735G-DK=  ../Drivers/BSP/STM32H735G-DK/stm32h735g_discovery.c;

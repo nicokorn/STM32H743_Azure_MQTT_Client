@@ -1,3 +1,6 @@
+## <b>NUCLEO-H743ZI/2 - Board Azure RTOS MQTT Client Example</b>
+This example has been ported from the official STM32H735G Discovery board. It is a IAR Workbench project.
+
 
 ## <b>Nx_MQTT_Client application description</b>
 

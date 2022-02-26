@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  23/Feb/2022  18:28:32
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  26/Feb/2022  09:05:24
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -1575,7 +1575,7 @@ initialize by copy { rw };
   .intvec            ro code   0x800'0000     0x298  startup_stm32h743xx.o [1]
                              - 0x800'0298     0x298
 
-"P1":                                      0x2'8535
+"P1":                                      0x2'8537
   .text              ro code   0x800'0298    0x208c  nxd_mqtt_client.o [13]
   .text              ro code   0x800'2324     0x14a  nx_packet_data_append.o [15]
   .text              ro code   0x800'246e      0x76  lz77_init_single.o [21]
@@ -2002,93 +2002,92 @@ initialize by copy { rw };
   .text              ro code   0x802'7cf4       0xa  cexit.o [21]
   .rodata            const     0x802'7d00      0x1c  app_netxduo.o [4]
   .text              ro code   0x802'7d1c      0x1c  cstartup_M.o [21]
-  .rodata            const     0x802'7d38      0x18  nx_ip_create.o [15]
-  .rodata            const     0x802'7d50      0x18  stm32h7xx_hal_uart.o [8]
-  .text              ro code   0x802'7d68      0x16  xprout.o [19]
-  .text              ro code   0x802'7d80       0xc  putchar.o [19]
-  .rodata            const     0x802'7d8c      0x14  app_azure_rtos.o [2]
-  .rodata            const     0x802'7da0      0x14  app_azure_rtos.o [2]
-  .rodata            const     0x802'7db4      0x14  app_netxduo.o [4]
-  .rodata            const     0x802'7dc8      0x14  app_netxduo.o [4]
-  .rodata            const     0x802'7ddc      0x14  app_netxduo.o [4]
-  .rodata            const     0x802'7df0      0x14  app_netxduo.o [4]
-  .rodata            const     0x802'7e04      0x14  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7e18      0x14  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7e2c      0x14  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7e40      0x14  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7e54      0x14  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7e68      0x14  nx_secure_tls_send_certificate_verify.o [16]
-  .rodata            const     0x802'7e7c      0x14  nx_secure_tls_session_create_ext.o [16]
-  .rodata            const     0x802'7e90      0x14  nxd_dhcp_client.o [11]
-  .rodata            const     0x802'7ea4      0x14  nxd_dhcp_client.o [11]
-  .rodata            const     0x802'7eb8      0x14  nxd_dhcp_client.o [11]
-  .rodata            const     0x802'7ecc      0x14  tx_timer_initialize.o [17]
-  .text              ro code   0x802'7ee0      0x14  nx_ip_periodic_timer_entry.o [15]
-  .rodata            const     0x802'7ef4      0x10  app_netxduo.o [4]
-  .rodata            const     0x802'7f04      0x10  app_netxduo.o [4]
-  .rodata            const     0x802'7f14      0x10  app_netxduo.o [4]
-  .rodata            const     0x802'7f24      0x10  app_netxduo.o [4]
-  .rodata            const     0x802'7f34      0x10  app_netxduo.o [4]
-  .rodata            const     0x802'7f44      0x10  nx_secure_tls_check_protocol_version.o [16]
-  .rodata            const     0x802'7f54      0x10  nx_secure_tls_ecc_generate_keys.o [16]
-  .rodata            const     0x802'7f64      0x10  nx_secure_tls_generate_keys.o [16]
-  .rodata            const     0x802'7f74      0x10  nx_secure_tls_generate_keys.o [16]
-  .rodata            const     0x802'7f84      0x10  nx_secure_tls_process_finished.o [16]
-  .rodata            const     0x802'7f94      0x10  nx_secure_tls_process_finished.o [16]
-  .rodata            const     0x802'7fa4      0x10  nx_secure_tls_send_finished.o [16]
-  .rodata            const     0x802'7fb4      0x10  nx_secure_tls_send_finished.o [16]
-  .rodata            const     0x802'7fc4      0x10  system_stm32h7xx.o [7]
-  .text              ro code   0x802'7fd4      0x10  startup_stm32h743xx.o [1]
-  .rodata            const     0x802'7fe4       0xc  app_netxduo.o [4]
-  .rodata            const     0x802'7ff0       0xc  app_netxduo.o [4]
-  .rodata            const     0x802'7ffc       0xc  app_netxduo.o [4]
-  .rodata            const     0x802'8008       0xc  app_netxduo.o [4]
-  .rodata            const     0x802'8014       0xc  nx_crypto_aes.o [14]
-  .rodata            const     0x802'8020       0xc  nx_secure_tls_initialize.o [16]
-  .rodata            const     0x802'802c       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8038       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8044       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8050       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'805c       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8068       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8074       0xc  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8080       0xc  nxd_dns.o [12]
-  .rodata            const     0x802'808c       0xc  nxd_dns.o [12]
-  .rodata            const     0x802'8098       0xc  nxd_dns.o [12]
-  .rodata            const     0x802'80a4       0xc  nxd_mqtt_client.o [13]
-  .rodata            const     0x802'80b0       0xc  stm32h735g_discovery.o [6]
-  .text              ro code   0x802'80bc       0xc  memcpy.o [21]
-  .rodata            const     0x802'80c8       0x8  nx_crypto_huge_number.o [14]
-  .rodata            const     0x802'80d0       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'80d8       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'80e0       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'80e8       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'80f0       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'80f8       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8100       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8108       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8110       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8118       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8120       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8128       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8130       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8138       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8140       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8148       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8150       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8158       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8160       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8168       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8170       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8178       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8180       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8188       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8190       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'8198       0x8  nx_secure_x509_oid_parse.o [16]
-  .rodata            const     0x802'81a0       0x8  nxd_mqtt_client.o [13]
-  .rodata            const     0x802'81a8       0x8  stm32h7xx_hal_uart_ex.o [8]
-  .rodata            const     0x802'81b0       0x8  stm32h7xx_hal_uart_ex.o [8]
-  .rodata            const     0x802'81b8       0x4  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'7d38      0x18  app_netxduo.o [4]
+  .rodata            const     0x802'7d50      0x18  nx_ip_create.o [15]
+  .rodata            const     0x802'7d68      0x18  stm32h7xx_hal_uart.o [8]
+  .text              ro code   0x802'7d80      0x16  xprout.o [19]
+  .text              ro code   0x802'7d98       0xc  putchar.o [19]
+  .rodata            const     0x802'7da4      0x14  app_azure_rtos.o [2]
+  .rodata            const     0x802'7db8      0x14  app_azure_rtos.o [2]
+  .rodata            const     0x802'7dcc      0x14  app_netxduo.o [4]
+  .rodata            const     0x802'7de0      0x14  app_netxduo.o [4]
+  .rodata            const     0x802'7df4      0x14  app_netxduo.o [4]
+  .rodata            const     0x802'7e08      0x14  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7e1c      0x14  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7e30      0x14  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7e44      0x14  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7e58      0x14  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7e6c      0x14  nx_secure_tls_send_certificate_verify.o [16]
+  .rodata            const     0x802'7e80      0x14  nx_secure_tls_session_create_ext.o [16]
+  .rodata            const     0x802'7e94      0x14  nxd_dhcp_client.o [11]
+  .rodata            const     0x802'7ea8      0x14  nxd_dhcp_client.o [11]
+  .rodata            const     0x802'7ebc      0x14  nxd_dhcp_client.o [11]
+  .rodata            const     0x802'7ed0      0x14  tx_timer_initialize.o [17]
+  .text              ro code   0x802'7ee4      0x14  nx_ip_periodic_timer_entry.o [15]
+  .rodata            const     0x802'7ef8      0x10  app_netxduo.o [4]
+  .rodata            const     0x802'7f08      0x10  app_netxduo.o [4]
+  .rodata            const     0x802'7f18      0x10  app_netxduo.o [4]
+  .rodata            const     0x802'7f28      0x10  app_netxduo.o [4]
+  .rodata            const     0x802'7f38      0x10  app_netxduo.o [4]
+  .rodata            const     0x802'7f48      0x10  nx_secure_tls_check_protocol_version.o [16]
+  .rodata            const     0x802'7f58      0x10  nx_secure_tls_ecc_generate_keys.o [16]
+  .rodata            const     0x802'7f68      0x10  nx_secure_tls_generate_keys.o [16]
+  .rodata            const     0x802'7f78      0x10  nx_secure_tls_generate_keys.o [16]
+  .rodata            const     0x802'7f88      0x10  nx_secure_tls_process_finished.o [16]
+  .rodata            const     0x802'7f98      0x10  nx_secure_tls_process_finished.o [16]
+  .rodata            const     0x802'7fa8      0x10  nx_secure_tls_send_finished.o [16]
+  .rodata            const     0x802'7fb8      0x10  nx_secure_tls_send_finished.o [16]
+  .rodata            const     0x802'7fc8      0x10  system_stm32h7xx.o [7]
+  .text              ro code   0x802'7fd8      0x10  startup_stm32h743xx.o [1]
+  .rodata            const     0x802'7fe8       0xc  app_netxduo.o [4]
+  .rodata            const     0x802'7ff4       0xc  app_netxduo.o [4]
+  .rodata            const     0x802'8000       0xc  app_netxduo.o [4]
+  .rodata            const     0x802'800c       0xc  app_netxduo.o [4]
+  .rodata            const     0x802'8018       0xc  nx_crypto_aes.o [14]
+  .rodata            const     0x802'8024       0xc  nx_secure_tls_initialize.o [16]
+  .rodata            const     0x802'8030       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'803c       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8048       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8054       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8060       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'806c       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8078       0xc  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8084       0xc  nxd_dns.o [12]
+  .rodata            const     0x802'8090       0xc  nxd_dns.o [12]
+  .rodata            const     0x802'809c       0xc  nxd_dns.o [12]
+  .rodata            const     0x802'80a8       0xc  nxd_mqtt_client.o [13]
+  .rodata            const     0x802'80b4       0xc  stm32h735g_discovery.o [6]
+  .text              ro code   0x802'80c0       0xc  memcpy.o [21]
+  .rodata            const     0x802'80cc       0x8  nx_crypto_huge_number.o [14]
+  .rodata            const     0x802'80d4       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'80dc       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'80e4       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'80ec       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'80f4       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'80fc       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8104       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'810c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8114       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'811c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8124       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'812c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8134       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'813c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8144       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'814c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8154       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'815c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8164       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'816c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8174       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'817c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8184       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'818c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'8194       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'819c       0x8  nx_secure_x509_oid_parse.o [16]
+  .rodata            const     0x802'81a4       0x8  nxd_mqtt_client.o [13]
+  .rodata            const     0x802'81ac       0x8  stm32h7xx_hal_uart_ex.o [8]
+  .rodata            const     0x802'81b4       0x8  stm32h7xx_hal_uart_ex.o [8]
   .rodata            const     0x802'81bc       0x4  nx_secure_x509_oid_parse.o [16]
   .rodata            const     0x802'81c0       0x4  nx_secure_x509_oid_parse.o [16]
   .rodata            const     0x802'81c4       0x4  nx_secure_x509_oid_parse.o [16]
@@ -2121,7 +2120,7 @@ initialize by copy { rw };
   .rodata            const     0x802'8230       0x4  nx_secure_x509_oid_parse.o [16]
   .rodata            const     0x802'8234       0x4  nx_secure_x509_oid_parse.o [16]
   .rodata            const     0x802'8238       0x4  nx_secure_x509_oid_parse.o [16]
-  .text              ro code   0x802'823c       0x4  startup_stm32h743xx.o [1]
+  .rodata            const     0x802'823c       0x4  nx_secure_x509_oid_parse.o [16]
   .text              ro code   0x802'8240       0x4  startup_stm32h743xx.o [1]
   .text              ro code   0x802'8244       0x4  startup_stm32h743xx.o [1]
   .text              ro code   0x802'8248       0x4  startup_stm32h743xx.o [1]
@@ -2259,10 +2258,11 @@ initialize by copy { rw };
   .text              ro code   0x802'8458       0x4  startup_stm32h743xx.o [1]
   .text              ro code   0x802'845c       0x4  startup_stm32h743xx.o [1]
   .text              ro code   0x802'8460       0x4  startup_stm32h743xx.o [1]
-  .rodata            const     0x802'8464       0x0  zero_init3.o [21]
-  .rodata            const     0x802'8464       0x0  lz77_init_single.o [21]
-  Initializer bytes  const     0x802'8464     0x369  <for P2-1>
-                             - 0x802'87cd  0x2'8535
+  .text              ro code   0x802'8464       0x4  startup_stm32h743xx.o [1]
+  .rodata            const     0x802'8468       0x0  zero_init3.o [21]
+  .rodata            const     0x802'8468       0x0  lz77_init_single.o [21]
+  Initializer bytes  const     0x802'8468     0x367  <for P2-1>
+                             - 0x802'87cf  0x2'8537
 
 "P2", part 1 of 3:                            0x699
   P2-1                        0x2400'0000     0x699  <Init block>
@@ -2431,7 +2431,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x802'87cd   0x80f'ffff  0xd'7833
+   0x802'87cf   0x80f'ffff  0xd'7831
   0x2400'0699  0x2400'069b       0x3
   0x2401'5f0c  0x2401'5f0f       0x4
   0x2401'6f10  0x2402'ffff  0x1'90f0
@@ -2452,8 +2452,8 @@ Zero (__iar_zero_init3)
           0x2403'0200  0x1'4000
 
 Copy/lz77 (__iar_lz77_init_single3)
-    1 source range, total size 0x369 (51% of destination):
-           0x802'8464     0x369
+    1 source range, total size 0x367 (51% of destination):
+           0x802'8468     0x367
     1 destination range, total size 0x699:
           0x2400'0000     0x699
 
@@ -2491,9 +2491,9 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Ap
     Total:                                              2'082               436      192
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Application\User\NetXDuo\App: [4]
-    app_netxduo.o                                       1'620    1'586   80'332
+    app_netxduo.o                                       1'620    1'590   80'332
     ------------------------------------------------------------------------------------
-    Total:                                              1'620    1'586   80'332
+    Total:                                              1'620    1'590   80'332
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Drivers\BSP\Components: [5]
     lan8742.o                                             488
@@ -2501,9 +2501,9 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Dr
     Total:                                                488
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Drivers\BSP\STM32H735G-DK: [6]
-    stm32h735g_discovery.o                                276       18       12
+    stm32h735g_discovery.o                                276       19       12
     ------------------------------------------------------------------------------------
-    Total:                                                276       18       12
+    Total:                                                276       19       12
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Drivers\CMSIS: [7]
     system_stm32h7xx.o                                    316       20        8
@@ -2532,9 +2532,9 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     Total:                                              2'548               192
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Middlewares\Interfaces\Network\Ethernet Phy Interface\LAN8742_Phy_Interface: [10]
-    nx_stm32_phy_driver.o                                 148       10       52
+    nx_stm32_phy_driver.o                                 148       11       52
     ------------------------------------------------------------------------------------
-    Total:                                                148       10       52
+    Total:                                                148       11       52
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Middlewares\NetXDuo\Network\NetXDuo\Addons DHCP Client: [11]
     nxd_dhcp_client.o                                   6'104       62        8
@@ -2560,7 +2560,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nx_crypto_huge_number.o                             4'700        8
     nx_crypto_initialize.o                                           4        8
     nx_crypto_md5.o                                     2'964       64
-    nx_crypto_methods.o                                            166      320
+    nx_crypto_methods.o                                            165      320
     nx_crypto_phash.o                                     476
     nx_crypto_rsa.o                                       504
     nx_crypto_sha1.o                                    1'184       64
@@ -2568,7 +2568,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nx_crypto_sha5.o                                    2'928      768
     nx_crypto_tls_prf_sha256.o                            308
     ------------------------------------------------------------------------------------
-    Total:                                             19'144    5'066      476
+    Total:                                             19'144    5'065      476
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Middlewares\NetXDuo\Network\NetXDuo\NX Core: [15]
     nx_arp_dynamic_entry_delete.o                         124
@@ -2625,7 +2625,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nx_packet_release.o                                   260
     nx_packet_transmit_release.o                           82
     nx_rarp_packet_deferred_receive.o                     106
-    nx_system_initialize.o                                          52      120
+    nx_system_initialize.o                                          51      120
     nx_tcp_cleanup_deferred.o                               2
     nx_tcp_client_bind_cleanup.o                          232
     nx_tcp_client_socket_bind.o                           348
@@ -2708,7 +2708,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nxe_tcp_enable.o                                       84
     nxe_udp_enable.o                                       84
     ------------------------------------------------------------------------------------
-    Total:                                             32'458       76      152
+    Total:                                             32'458       75      152
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Middlewares\NetXDuo\Network\NetXDuo\TLS: [16]
     nx_secure_tls_allocate_handshake_packet.o             108
@@ -2799,7 +2799,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nx_secure_x509_free_certificate_get.o                  40
     nx_secure_x509_key_usage_extension_parse.o            132
     nx_secure_x509_local_device_certificate_get.o          76
-    nx_secure_x509_oid_parse.o                            112      827      780
+    nx_secure_x509_oid_parse.o                            112      826      780
     nx_secure_x509_pkcs1_rsa_private_key_parse.o          734
     nx_secure_x509_pkcs7_decode.o                         366
     nx_secure_x509_remote_endpoint_certificate_get.o       86
@@ -2818,7 +2818,7 @@ D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Mi
     nxe_secure_tls_trusted_certificate_add.o              100
     nxe_secure_x509_certificate_initialize.o              120
     ------------------------------------------------------------------------------------
-    Total:                                             41'274    1'159    4'842
+    Total:                                             41'274    1'158    4'842
 
 D:\GitHub\STM32H743_Azure_MQTT_Client\Nx_MQTT_Client\EWARM\Nx_MQTT_Client\Obj\Middlewares\ThreadX\RTOS\ThreadX\Core: [17]
     tx_byte_allocate.o                                    296
@@ -2906,7 +2906,7 @@ dl7M_tlf.a: [19]
     low_level_init.o                                        4
     printf.o                                               40
     putchar.o                                              12
-    rand.o                                                156       73      140
+    rand.o                                                156       72      140
     sprintf.o                                              64
     xfail_s.o                                              64                 4
     xfiles.o                                                        37      152
@@ -2915,7 +2915,7 @@ dl7M_tlf.a: [19]
     xprout.o                                               22
     xsprout.o                                              10
     ------------------------------------------------------------------------------------
-    Total:                                              4'280      142      352
+    Total:                                              4'280      141      352
 
 m7M_tlv.a: [20]
     DblCmpGe.o                                             52
@@ -2962,7 +2962,7 @@ shb_l.a: [22]
     Gaps                                                   91        8
     Linker created                                                  48    4'096
 ----------------------------------------------------------------------------------------
-    Grand Total:                                      157'481    8'356  175'879      192
+    Grand Total:                                      157'481    8'358  175'879      192
 
 
 *******************************************************************************
@@ -2987,7 +2987,7 @@ BSP_LED_Toggle           0x801'6bc1      0x24  Code  Gb  stm32h735g_discovery.o 
 BusFault_Handler         0x802'7c2f       0x2  Code  Gb  stm32h7xx_it.o [3]
 CSTACK$$Base            0x2401'5f10             --   Gb  - Linker created -
 CSTACK$$Limit           0x2401'6f10             --   Gb  - Linker created -
-D1CorePrescTable         0x802'7fc4      0x10  Data  Gb  system_stm32h7xx.o [7]
+D1CorePrescTable         0x802'7fc8      0x10  Data  Gb  system_stm32h7xx.o [7]
 DMARxDscrTab            0x2403'0000      0x60  Data  Gb  main.o [3]
 DMATxDscrTab            0x2403'0060      0x60  Data  Gb  main.o [3]
 DebugMon_Handler         0x802'7c33       0x2  Code  Gb  stm32h7xx_it.o [3]
@@ -3116,7 +3116,7 @@ LAN8742_GetLinkState     0x801'8429      0xc8  Code  Gb  lan8742.o [5]
 LAN8742_IOCtx           0x2400'04f4      0x14  Data  Lc  nx_stm32_phy_driver.o [10]
 LAN8742_Init             0x801'833f      0xea  Code  Gb  lan8742.o [5]
 LAN8742_RegisterBusIO    0x801'8309      0x36  Code  Gb  lan8742.o [5]
-LED_PIN                  0x802'80b0       0xc  Data  Lc  stm32h735g_discovery.o [6]
+LED_PIN                  0x802'80b4       0xc  Data  Lc  stm32h735g_discovery.o [6]
 LED_PORT                0x2400'0570       0xc  Data  Lc  stm32h735g_discovery.o [6]
 MPU_Config               0x801'66af      0x84  Code  Lc  main.o [3]
 MX_ETH_Init              0x801'64f7      0x80  Code  Gb  main.o [3]
@@ -3131,132 +3131,132 @@ MqttClient              0x2401'2a7c     0xbe0  Data  Gb  app_netxduo.o [4]
 NMI_Handler              0x802'7c29       0x2  Code  Gb  stm32h7xx_it.o [3]
 NVIC_EncodePriority      0x801'4fb1      0x42  Code  Lc  stm32h7xx_hal_cortex.o [8]
 NX_SECURE_X509_OID_ANY_EXTENDED_KEY_USAGE
-                         0x802'822c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ANY_POLICY
-                         0x802'8218       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_AUTHORITY_KEY_ID
-                         0x802'8220       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_BASIC_CONSTRAINTS
-                         0x802'8208       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_CERTIFICATE_POLICIES
-                         0x802'8214       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_CERT_POLICY_MAPPINGS
-                         0x802'821c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_COMMON_NAME
-                         0x802'81b8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_COUNTRY_NAME
-                         0x802'81c4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_CRL_DISTRIBUTION
-                         0x802'8210       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_DH    0x802'80d0       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_DIRECTORY_ATTRIBUTES
-                         0x802'81f4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_DN_QUALIFIER
-                         0x802'81ec       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_DSS_SHA1
-                         0x802'80d8       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_EC    0x802'8148       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ECDSA_SHA1
-                         0x802'8178       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ECDSA_SHA224
-                         0x802'8180       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ECDSA_SHA256
-                         0x802'8188       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ECDSA_SHA384
-                         0x802'8190       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ECDSA_SHA512
-                         0x802'8198       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_EXTENDED_KEY_USAGE
-                         0x802'8228       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_FRESHEST_CRL
                          0x802'8230       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_GENERATION
-                         0x802'81e8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_GIVEN_NAME
-                         0x802'81e0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_INHIBIT_ANYPOLICY
-                         0x802'8234       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_INITIALS
-                         0x802'81e4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ISSUER_ALT_NAME
-                         0x802'8204       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_KEY_USAGE
-                         0x802'81fc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_LOCALITY
-                         0x802'81c8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_NAME
-                         0x802'81dc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_NAME_CONSTRAINTS
-                         0x802'820c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_NETSCAPE_COMMENT
-                         0x802'8074       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ORGANIZATION
-                         0x802'81d0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_ORG_UINT
-                         0x802'81d4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_AIA
-                         0x802'80e8       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_EXT_PREFIX
-                         0x802'80e0       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP
-                         0x802'8110       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_CLIENT_AUTH
-                         0x802'8120       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_CODE_SIGNING
-                         0x802'8128       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_EMAIL_PROTECT
-                         0x802'8130       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_OCSP_SIGNING
-                         0x802'8140       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_SERVER_AUTH
-                         0x802'8118       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_KP_TIME_STAMPING
-                         0x802'8138       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_QT
-                         0x802'80f8       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_QT_CPS
-                         0x802'8100       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_QT_UNOTICE
-                         0x802'8108       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PKIX_SIA
-                         0x802'80f0       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_POLICY_CONSTRAINTS
+NX_SECURE_X509_OID_ANY_POLICY
+                         0x802'821c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_AUTHORITY_KEY_ID
                          0x802'8224       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_PSEUDONYM
-                         0x802'81f0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA   0x802'802c       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA_MD5
-                         0x802'8038       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA_SHA1
-                         0x802'8044       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA_SHA256
-                         0x802'8050       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA_SHA384
-                         0x802'805c       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_RSA_SHA512
-                         0x802'8068       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SECP192R1
-                         0x802'8150       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SECP224R1
-                         0x802'8158       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SECP256R1
-                         0x802'8160       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SECP384R1
-                         0x802'8168       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SECP521R1
-                         0x802'8170       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SERIAL_NUMBER
-                         0x802'81c0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_STATE
-                         0x802'81cc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SUBJECT_ALT_NAME
-                         0x802'8200       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SUBJECT_KEY_ID
-                         0x802'81f8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_SURNAME
+NX_SECURE_X509_OID_BASIC_CONSTRAINTS
+                         0x802'820c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_CERTIFICATE_POLICIES
+                         0x802'8218       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_CERT_POLICY_MAPPINGS
+                         0x802'8220       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_COMMON_NAME
                          0x802'81bc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
-NX_SECURE_X509_OID_TITLE
+NX_SECURE_X509_OID_COUNTRY_NAME
+                         0x802'81c8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_CRL_DISTRIBUTION
+                         0x802'8214       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_DH    0x802'80d4       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_DIRECTORY_ATTRIBUTES
+                         0x802'81f8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_DN_QUALIFIER
+                         0x802'81f0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_DSS_SHA1
+                         0x802'80dc       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_EC    0x802'814c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ECDSA_SHA1
+                         0x802'817c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ECDSA_SHA224
+                         0x802'8184       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ECDSA_SHA256
+                         0x802'818c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ECDSA_SHA384
+                         0x802'8194       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ECDSA_SHA512
+                         0x802'819c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_EXTENDED_KEY_USAGE
+                         0x802'822c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_FRESHEST_CRL
+                         0x802'8234       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_GENERATION
+                         0x802'81ec       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_GIVEN_NAME
+                         0x802'81e4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_INHIBIT_ANYPOLICY
+                         0x802'8238       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_INITIALS
+                         0x802'81e8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ISSUER_ALT_NAME
+                         0x802'8208       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_KEY_USAGE
+                         0x802'8200       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_LOCALITY
+                         0x802'81cc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_NAME
+                         0x802'81e0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_NAME_CONSTRAINTS
+                         0x802'8210       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_NETSCAPE_COMMENT
+                         0x802'8078       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ORGANIZATION
+                         0x802'81d4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_ORG_UINT
                          0x802'81d8       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_AIA
+                         0x802'80ec       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_EXT_PREFIX
+                         0x802'80e4       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP
+                         0x802'8114       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_CLIENT_AUTH
+                         0x802'8124       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_CODE_SIGNING
+                         0x802'812c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_EMAIL_PROTECT
+                         0x802'8134       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_OCSP_SIGNING
+                         0x802'8144       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_SERVER_AUTH
+                         0x802'811c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_KP_TIME_STAMPING
+                         0x802'813c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_QT
+                         0x802'80fc       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_QT_CPS
+                         0x802'8104       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_QT_UNOTICE
+                         0x802'810c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PKIX_SIA
+                         0x802'80f4       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_POLICY_CONSTRAINTS
+                         0x802'8228       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_PSEUDONYM
+                         0x802'81f4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA   0x802'8030       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA_MD5
+                         0x802'803c       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA_SHA1
+                         0x802'8048       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA_SHA256
+                         0x802'8054       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA_SHA384
+                         0x802'8060       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_RSA_SHA512
+                         0x802'806c       0xc  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SECP192R1
+                         0x802'8154       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SECP224R1
+                         0x802'815c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SECP256R1
+                         0x802'8164       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SECP384R1
+                         0x802'816c       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SECP521R1
+                         0x802'8174       0x8  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SERIAL_NUMBER
+                         0x802'81c4       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_STATE
+                         0x802'81d0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SUBJECT_ALT_NAME
+                         0x802'8204       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SUBJECT_KEY_ID
+                         0x802'81fc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_SURNAME
+                         0x802'81c0       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+NX_SECURE_X509_OID_TITLE
+                         0x802'81dc       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
 NetMask                 0x2401'5e20       0x4  Data  Gb  app_netxduo.o [4]
 PendSV_Handler           0x801'88f5            Code  Gb  tx_thread_schedule.o [17]
 RCCEx_PLL2_Config        0x801'60b9     0x130  Code  Lc  stm32h7xx_hal_rcc_ex.o [8]
@@ -3277,10 +3277,10 @@ TxPacketCfg             0x2401'5c48      0x34  Data  Gb  nx_stm32_eth_driver.o [
 UARTEx_SetNbDataToProcess
                          0x801'7ec7      0x72  Code  Lc  stm32h7xx_hal_uart_ex.o [8]
 UARTEx_SetNbDataToProcess::denominator
-                         0x802'81b0       0x8  Data  Lc  stm32h7xx_hal_uart_ex.o [8]
+                         0x802'81b4       0x8  Data  Lc  stm32h7xx_hal_uart_ex.o [8]
 UARTEx_SetNbDataToProcess::numerator
-                         0x802'81a8       0x8  Data  Lc  stm32h7xx_hal_uart_ex.o [8]
-UARTPrescTable           0x802'7d50      0x18  Data  Gb  stm32h7xx_hal_uart.o [8]
+                         0x802'81ac       0x8  Data  Lc  stm32h7xx_hal_uart_ex.o [8]
+UARTPrescTable           0x802'7d68      0x18  Data  Gb  stm32h7xx_hal_uart.o [8]
 UART_AdvFeatureConfig    0x801'7b89      0xda  Code  Gb  stm32h7xx_hal_uart.o [8]
 UART_CheckIdleState      0x801'7c63      0x72  Code  Gb  stm32h7xx_hal_uart.o [8]
 UART_SetConfig           0x801'75e9     0x59e  Code  Gb  stm32h7xx_hal_uart.o [8]
@@ -3289,20 +3289,20 @@ UART_WaitOnFlagUntilTimeout
 UsageFault_Handler       0x802'7c31       0x2  Code  Gb  stm32h7xx_it.o [3]
 _LitobFullNoMb           0x801'b985     0x10c  Code  Lc  xprintffull_nomb.o [19]
 _Locale_lconv           0x2400'0618      0x38  Data  Lc  xlocale_c.o [19]
-_NX_CRYPTO_DER_OID_MD5   0x802'7e04      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+_NX_CRYPTO_DER_OID_MD5   0x802'7e08      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
 _NX_CRYPTO_DER_OID_SHA_1
-                         0x802'7f54      0x10  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+                         0x802'7f58      0x10  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
 _NX_CRYPTO_DER_OID_SHA_224
-                         0x802'7e18      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+                         0x802'7e1c      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
 _NX_CRYPTO_DER_OID_SHA_256
-                         0x802'7e2c      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+                         0x802'7e30      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
 _NX_CRYPTO_DER_OID_SHA_384
-                         0x802'7e40      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+                         0x802'7e44      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
 _NX_CRYPTO_DER_OID_SHA_512
-                         0x802'7e54      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
-_NX_SECURE_OID_SHA256    0x802'7e68      0x14  Data  Lc  nx_secure_tls_send_certificate_verify.o [16]
+                         0x802'7e58      0x14  Data  Lc  nx_secure_tls_ecc_generate_keys.o [16]
+_NX_SECURE_OID_SHA256    0x802'7e6c      0x14  Data  Lc  nx_secure_tls_send_certificate_verify.o [16]
 _PrintfFullNoMb          0x801'ac4d     0xd08  Code  Gb  xprintffull_nomb.o [19]
-_Prout                   0x802'7d69      0x16  Code  Gb  xprout.o [19]
+_Prout                   0x802'7d81      0x16  Code  Gb  xprout.o [19]
 _PutcharFullNoMb         0x801'bae9      0x20  Code  Lc  xprintffull_nomb.o [19]
 _PutcharsFullNoMb        0x801'bb09      0x2e  Code  Lc  xprintffull_nomb.o [19]
 _Rand_idx               0x2400'0614       0x4  Data  Lc  rand.o [19]
@@ -3736,7 +3736,7 @@ _nx_ip_packet_deferred_receive
 _nx_ip_packet_receive    0x802'56a9      0x5a  Code  Gb  nx_ip_packet_receive.o [15]
 _nx_ip_packet_send       0x800'7203      0x9c  Code  Gb  nx_ip_packet_send.o [15]
 _nx_ip_periodic_timer_entry
-                         0x802'7ee1      0x14  Code  Gb  nx_ip_periodic_timer_entry.o [15]
+                         0x802'7ee5      0x14  Code  Gb  nx_ip_periodic_timer_entry.o [15]
 _nx_ip_route_find        0x800'6631     0x208  Code  Gb  nx_ip_route_find.o [15]
 _nx_ip_thread_entry      0x802'53b1     0x2f8  Code  Gb  nx_ip_thread_entry.o [15]
 _nx_ipv4_option_process
@@ -4008,7 +4008,7 @@ _nx_secure_x509_local_device_certificate_get
 _nx_secure_x509_oid_map
                         0x2400'01e8     0x30c  Data  Gb  nx_secure_x509_oid_parse.o [16]
 _nx_secure_x509_oid_map_size
-                         0x802'8238       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
+                         0x802'823c       0x4  Data  Lc  nx_secure_x509_oid_parse.o [16]
 _nx_secure_x509_oid_parse
                          0x800'f415      0x70  Code  Gb  nx_secure_x509_oid_parse.o [16]
 _nx_secure_x509_parse_cert_data
@@ -4487,7 +4487,7 @@ abort                    0x801'd77d       0x6  Code  Gb  abort.o [19]
 aes_decryption_table     0x802'3eec     0x400  Data  Lc  nx_crypto_aes.o [14]
 aes_encryption_table     0x802'3aec     0x400  Data  Lc  nx_crypto_aes.o [14]
 aes_inv_mix_table        0x802'42ec     0x400  Data  Lc  nx_crypto_aes.o [14]
-aes_rcon_array           0x802'8014       0xc  Data  Lc  nx_crypto_aes.o [14]
+aes_rcon_array           0x802'8018       0xc  Data  Lc  nx_crypto_aes.o [14]
 crypto_metadata_client  0x2400'a69c    0x2d50  Data  Lc  app_netxduo.o [4]
 crypto_method_aes_cbc_128
                         0x2400'00a0      0x20  Data  Gb  nx_crypto_methods.o [14]
@@ -4533,7 +4533,7 @@ localeconv               0x801'c805       0x4  Code  Gb  xlocale_c.o [19]
 main                     0x801'6357      0xca  Code  Gb  main.o [3]
 memchr                   0x801'c561            Code  Gb  memchr.o [21]
 memcmp                   0x800'a781            Code  Gb  memcmp.o [21]
-memcpy                   0x802'80bd       0xc  Code  Gb  memcpy.o [21]
+memcpy                   0x802'80c1       0xc  Code  Gb  memcpy.o [21]
 memset                   0x801'4c7f      0x14  Code  Gb  memset.o [21]
 message                 0x2401'5cf4      0x20  Data  Lc  app_netxduo.o [4]
 message_buffer          0x2401'5d14      0x20  Data  Lc  app_netxduo.o [4]
@@ -4554,11 +4554,11 @@ nx_eth_phy_init          0x801'69c5      0x20  Code  Gb  nx_stm32_phy_driver.o [
 nx_secure_supported_versions_list
                         0x2400'01e0       0x8  Data  Gb  nx_secure_tls_check_protocol_version.o [16]
 nx_secure_tls_supported_versions
-                         0x802'7f44      0x10  Data  Lc  nx_secure_tls_check_protocol_version.o [16]
+                         0x802'7f48      0x10  Data  Lc  nx_secure_tls_check_protocol_version.o [16]
 nx_stm32_eth_driver      0x801'4281      0xa0  Code  Gb  nx_stm32_eth_driver.o [9]
 obuf                    0x2401'5954      0x50  Data  Lc  xfiles.o [19]
 printf                   0x801'9479      0x28  Code  Gb  printf.o [19]
-putchar                  0x802'7d81       0xc  Code  Gb  putchar.o [19]
+putchar                  0x802'7d99       0xc  Code  Gb  putchar.o [19]
 rand                     0x800'651d      0x90  Code  Gb  rand.o [19]
 scalbln                  0x801'c6a5            Code  Gb  ldexp.o [20]
 scalblnl                 0x801'c6a5            Code  Gb  ldexp.o [20]
@@ -4608,7 +4608,7 @@ uwTickPrio              0x2400'057c       0x4  Data  Gb  stm32h7xx_hal.o [8]
 [22] = shb_l.a
 
   157'481 bytes of readonly  code memory
-    8'356 bytes of readonly  data memory
+    8'358 bytes of readonly  data memory
   175'879 bytes of readwrite data memory (+ 192 absolute)
 
 Errors: none

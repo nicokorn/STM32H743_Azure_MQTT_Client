@@ -63,7 +63,7 @@ extern "C" {
 #define CLEAN_SESSION               NX_TRUE
 #define STRLEN(p)                   strlen(p)//(sizeof(p) - 1)  
                                     
-#define TOPIC_NAME                  "Nico_Temperature" 
+#define TOPIC_NAME                  "STM32H743_Temperature" 
 #define NB_MESSAGE                  0                    /*  if NB_MESSAGE = 0, client will publish messages infinitely */
                                     
 #define MQTT_BROKER_NAME            "test.mosquitto.org" /* MQTT Server */
